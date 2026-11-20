@@ -1,6 +1,7 @@
 com\example\springapi\controller\StudentController.class
 com\example\springapi\service\CourseService.class
 com\example\springapi\entity\Enrollment.class
+com\example\springapi\repository\AccountRepository.class
 com\example\springapi\repository\EnrollmentRepository.class
 com\example\springapi\repository\StudentRepository.class
 com\example\springapi\controller\CourseController.class
@@ -8,6 +9,10 @@ com\example\springapi\repository\CourseRepository.class
 com\example\springapi\SpringApiApplication.class
 com\example\springapi\controller\EnrollmentController.class
 com\example\springapi\entity\Course.class
+com\example\springapi\service\CustomUserDetailsService.class
+com\example\springapi\config\SecurityConfig.class
+com\example\springapi\entity\Account.class
+com\example\springapi\config\DataInitializer.class
 com\example\springapi\exception\GlobalExceptionHandler.class
 com\example\springapi\service\StudentService.class
 com\example\springapi\entity\Student.class
